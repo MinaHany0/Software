@@ -1,0 +1,269 @@
+{
+  "main": {
+    "id": "98611ca014536c61",
+    "type": "split",
+    "children": [
+      {
+        "id": "40724e3f4d97fc3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e50b3087a30d36ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MEP Career/Fans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fans"
+            }
+          },
+          {
+            "id": "7c4b184ca724051c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MEP Career/Fire Fighting Course (Ibrahim Lashin).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fire Fighting Course (Ibrahim Lashin)"
+            }
+          },
+          {
+            "id": "4bc0fd0100c9929d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
+            "id": "7626eb622e839f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSSU/OSSU Networking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSSU Networking"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7fef1daeca9a5a2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d2323982e474512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c4658627e0abfa8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "697d9ba01d44e27c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#s",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "580756493a63bda2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "dda61ffaa95ee5c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f6a128ec7effada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "053cebb1bc1cf274",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PortSwigger/Access Control Version 2.0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Access Control Version 2.0"
+            }
+          },
+          {
+            "id": "ccebc3e70ae97151",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Elzero/El-Zero JS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from El-Zero JS"
+            }
+          },
+          {
+            "id": "44ccc1383fb51f72",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b5e3e088635d8fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PortSwigger/Same Origin Policy.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Same Origin Policy"
+            }
+          },
+          {
+            "id": "2a3a7bdee7af5279",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "7626eb622e839f12",
+  "lastOpenFiles": [
+    "CS106 Stanford/CS 106 B Lecture 5.md",
+    "PortSwigger/Access Control/Access Control Intro.md",
+    "OSSU/OSSU OOAD.md",
+    "OSSU/OSSU Class Based Program Design.md",
+    "README.md",
+    "Untitled.base",
+    "MEP Career/Kaitech/02-Revit Mechanical.md",
+    "PortSwigger/XSS Labs.md",
+    "SQL.md",
+    "Excalidraw/Drawing 2024-07-25 22.55.49.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-23 00.02.08.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-18 22.40.22.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-02 08.35.42.excalidraw.md",
+    "MEP Career/Fans.md",
+    "MEP Career/Kaitech",
+    "MEP Career/imgs/Fans-20251201144652620.webp",
+    "URL Encoding.md",
+    "Bug Bounty Map.md",
+    "PortSwigger/Web cache deception.md",
+    "PortSwigger/Same Origin Policy.md",
+    "PortSwigger/Conclusion.md",
+    "PortSwigger/Access Control Version 2.0.md",
+    "PortSwigger/99-Learnt from labs solved.md",
+    "Elzero/El-Zero JS.md",
+    "imgs/URL Encoding-20251111123348279.webp",
+    "Untitled 1.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "XSS Survival Guide.md",
+    "MEP Career/AE7 Interview.md",
+    "Elzero/El-Zero HTML.md",
+    "Hints.md",
+    "Encoded Character.md",
+    "Elzero/imgs/El-Zero JS-20251102193100005.webp",
+    "Elzero/imgs/El-Zero JS-20251102190712903.webp",
+    "Elzero/imgs/El-Zero JS-20251102190707511.webp",
+    "Elzero/imgs",
+    "imgs/Access Control Version 2.0-20250914165901583.webp",
+    "imgs/Access Control Version 2.0-20250914163445810.webp",
+    "imgs/Access Control Version 2.0-20250914162827244.webp",
+    "PortSwigger/API Testing/imgs/API Testing V2-20250914162347829.webp",
+    "PortSwigger/API Testing/imgs/API Testing V2-20250914155848845.webp",
+    "PortSwigger/API Testing/imgs/screencapture-portswigger-net-web-security-api-testing-server-side-parameter-pollution-2025-09-14-15_50_57.pdf",
+    "PortSwigger/API Testing/imgs/AHT-MAK-CR-WIR-MEP-14982-MAC Mockup Installation and Termination of Grills and diffusers in A1-26 at L- 22 (1) 1.pdf",
+    "PortSwigger/API Testing/imgs/10602591305251709 1.zip",
+    "PortSwigger/API Testing/imgs/ChromeSetup 1.exe"
+  ]
+}

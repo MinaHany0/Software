@@ -1,0 +1,67 @@
+
+# Lab 1
+Lesson 1 L the documentation Lab
+
+there are some standard names for the API documentation, which if you discover will help you a lot to find more vulnerabilites
+
+you can crawl an api for the popular names like : swagger, api, openAPI, .....
+
+1. you need to check all the options in the API (like /login /change-username /any-index)
+2. then when you find a weird API (/users/change-user) you can try to check what happens when you do (/users)
+3. you can try a list of indices by the intruder.
+
+# Lab 2
+lesson 2 : buying a free jacket lab
+
+here we saw that the page displaying the price had a patch method available
+- so naturally we tried using it
+- its mistake was the authorization
+- any user on the website could change the price
+- if you were not logged in, then you are "<span style="color:rgb(255, 192, 0)">unauthorized</span>"
+- makes no sense really as only some users should have this privilege not anybody on the site
+
+Lesson 3
+you need to find more endpoints using intruder to replace the current endpoint with different endpoints based on the nature of the web application (<span style="color:rgb(255, 192, 0)">keywords</span>)
+
+- The <span style="color:rgb(255, 192, 0)">Param miner BApp</span> enables you to automatically guess up to 65,536 param names per request. Param miner automatically guesses names that are relevant to the application, based on information taken from the scope.
+- you can use a <span style="color:rgb(255, 192, 0)">content discovery tool</span> to get more hidden endpoints
+	- a content discovery tool example applications like : 
+		- param Miner (paid through BurpSuite Professiona;)
+		- Go Buster: open source and free
+		- Dirb: open source and free
+		- ffuff: open source and free
+	- Many of these application are used for <span style="color:rgb(255, 192, 0)">Brute Forcing</span> 
+
+# Lab 3
+try to uncover hidden parameters in requests
+
+try to uncover hidden parameters in URL-Forms and then try to change the hidden parameters, like a <span style="color:rgb(255, 192, 0)">discount</span> parameter, or <span style="color:rgb(255, 192, 0)">isAdmin</span> Parameter
+
+
+# Lab 4
+each website has a robots.txt file which deals with the search engine crawlers and tells them which directories to show in searches and which resources to hide
+
+you can find an unprotected directory in the robots.txt where you can find un-protected features where you can exploit them
+lab Link: [Lab: Unprotected admin functionality | Web Security Academy](https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality)
+
+Lab 5
+in this lab we learned to check the cookies for any weird functionality like an admin cookie that is set to true or false.
+also I learnt that cookies are persistent so if you change them in inspect application tab , you have its persistent action.
+ Lab link: http://burpsuite/show/2/xorv0szlx2h7v3x67sdm2m994ss60ip0
+
+
+# <span style="color:rgb(255, 192, 0)">NOTICE : some labs are lost due to lost data in obsidian</span> 
+
+Lab 6: 
+in access control : Lab: Method-based access control can be circumvented
+Lab link: https://portswigger.net/web-security/access-control/lab-method-based-access-control-can-be-circumvented
+
+in this lab we learn that sometimes the server provides authorization checking on the POST method but not on the GET method.
+so we can change the POST method to a GET method with some parameters (only works on simple requests)
+
+- the issue with this lab, is that it is not realistic, meaning 
+	- you have to know the POST request to try to do it with the GET method
+	- but the lab gives you the administrator access so you can get familiarized with the methods of the admin, in order to mimic them with the normal user cookie
+	- can be very useful or very useless
+
+- <span style="color:rgb(255, 192, 0)">NEED TO KNOW HOW HARD or EASY it is to put the verification on both the GET and POST methods in order to access if people will generally skip it or they will easily do it but sometimes they will just forget</span> 

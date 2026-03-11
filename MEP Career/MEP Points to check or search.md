@@ -1,0 +1,4 @@
+- sprinklers at site color 
+- k-factor meaning  (<span style="color:rgb(0, 176, 80)">done</span>)
+- water heater , beams and sprinkler -> for distance and heights below the beam
+- 
