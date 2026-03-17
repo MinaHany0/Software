@@ -3,5 +3,6 @@
   "mermaid-tools",
   "colored-text",
   "obsidian-format-code",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "highlightr-plugin"
 ]

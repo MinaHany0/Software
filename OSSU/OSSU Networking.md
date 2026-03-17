@@ -189,7 +189,7 @@ for example Netflix is running two application
 we have two main architectures
 1. Client Server Architecture.
 2. peer to peer architecture.
-##### Client Server Architecture
+##### <mark style="background: #BBFABBA6;">Client Server Architecture</mark>
 properties
 1. a server host that is always ON
 2. clients can not communicate with each other.
@@ -198,7 +198,7 @@ properties
 5. Often a single host is incapable of keeping up with all the clients
 6. that why a data center housing a large number of hosts is often used to create a powerful virtual server. For example  Google has 19 data centers distributed all around the world
 7. one data center can have hundreds of thousands of servers
-##### Peer to Peer Architecture
+##### <mark style="background: #ADCCFFA6;">Peer to Peer Architecture</mark>
 peer to peer architecture exploits the users (peers) that generate the work load by requesting the data , to also provide  the data requested by other peers
 Properties
 1. PTP architecture is self-scalable as it needs less infrastructure
@@ -209,8 +209,8 @@ Cons of p2p architecture
 ### <span style="color:rgb(255, 192, 0)">2.1.2 Processes communicating</span>
 - when processes are talking to each other within one host, this is called inter-process communication and it is governed by the operating system rules
 - Generally, the end system initiating the communication is called the client, while the end system waiting for a connection to be initiated is called the server.
-- in the jargon of communication, a door is called a SCOKET, so a message needs to get out of the sender socket and into the receiver socket. (of course during this it passes through all the deeper layer)
-<span style="color:yellow">A socket is the interface between the application layer and the transport layer within a host. it is also referred to as the "Application Programming Interface API" between the application and the network.</span>
+- in the jargon of communication, a door is called a <mark style="background: #BBFABBA6;">SOCKET</mark>, so a message needs to get out of the sender socket and into the receiver socket. (of course during this it passes through all the deeper layer)
+<p style="color:green">A socket is the interface between the application layer and the transport layer within a host. it is also referred to as the "Application Programming Interface API" between the application and the network.</p>
 - the application developer has control over the application side of the socket and little to no control over the transport layer of the socket (maybe he can choose the communication protocol and maybe not)
 #### Addressing Processes
 - for us to send a postal mail, we need two information
@@ -229,10 +229,10 @@ many transport protocols are there and they are classified by many points :
    transport layer can also provide end point authentication and data integrity
 ### Transport services provided by the internet
 the internet makes two protocols available to applications : TCP and UDP
-#### TCP Protocol
+#### <mark style="background: #BBFABBA6;"> TCP Protocol</mark>
 provides:
 1. full duplex connection
-2. service is CONNECTION ORIENTED because the server and client do handshake before the connection starts and tear the connection down at the end of communication.
+2. service is <mark style="background: #BBFABBA6;">CONNECTION ORIENTED</mark> because the server and client do handshake before the connection starts and tear the connection down at the end of communication.
 3. Reliable data transfer service: an application layer can count on TCP to deliver all the bytes successfully and without fail
 4. a congestion control mechanism: TCP throttles the sending process (client or server side) when the network is congested between the sender and receiver.
 #### UDP protocol

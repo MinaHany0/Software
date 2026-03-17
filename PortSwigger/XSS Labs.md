@@ -47,10 +47,10 @@ Learnt Lessons
 
 ## Lab: Exploiting cross-site scripting to capture passwords
 
-- This lab's target is to show the vulnerability of using autofilling for user names and passwords
+- This lab's target is to show the vulnerability of using auto filling for user names and passwords
 - a script is injected into the already vulnerable comment section
 - this code injects a user name and password input sections 
-- as soon as the browser sees the user name and password attribute, it autofills them
+- as soon as the browser sees the user name and password attribute, it auto fills them
 - as then as soon as the browser fills the data, the scripts senses this using the "on change attribute" and sends these data to the malicious server.
 
 ## Lab: Exploiting XSS to bypass CSRF defenses
