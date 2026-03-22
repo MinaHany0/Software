@@ -1,3 +1,6 @@
+## 1.URL Encoding
+Link for encoder and decoder : https://www.albionresearch.com/tools/urlencode
+
 ![[URL Encoding-20251111123348279.webp]] 
 <span style="color:rgb(255, 192, 0)">The encoding that transforms the `@` symbol into `%40` is known as **URL encoding** (also called percent-encoding).</span>
 
